@@ -1,0 +1,14 @@
+{
+  "name": "stockhustlr",
+  "version": "1.0.0",
+  "description": "Converted project to Node.js with Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0"
+  }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holdings - Stock Exchange</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <div class="sidebar">
+      <h2>Watchlist</h2>
+      <ul class="watchlist">
+        <li>
+          <div>
+            <p class="stock-symbol">RELIANCE</p>
+            <p>₹2935.50</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <p class="stock-symbol">TCS</p>
+            <p>₹3875.20</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <nav class="navbar">
+        <h1 class="logo">Stock Exchange</h1>
+        <ul class="nav-links">
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="orders.html">Orders</a></li>
+          <li><a href="holdings.html" class="active">Holdings</a></li>
+          <li><a href="funds.html">Funds</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="settings.html">Settings</a></li>
+          <li><a href="signin.html">Logout</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+        <div class="card">
+          <h2>Holdings</h2>
+          <table class="holdings-table">
+            <thead>
+              <tr>
+                <th>Stock</th>
+                <th>Quantity</th>
+                <th>Buy Price</th>
+                <th>Current Price</th>
+                <th>Gain/Loss</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>RELIANCE</td>
+                <td>10</td>
+                <td>₹2900.00</td>
+                <td>₹2935.50</td>
+                <td class="text-green">₹355.00</td>
+              </tr>
+              <tr>
+                <td>TCS</td>
+                <td>5</td>
+                <td>₹3900.00</td>
+                <td>₹3875.20</td>
+                <td class="text-red">-₹124.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

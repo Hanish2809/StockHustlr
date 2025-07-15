@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up - Stock Exchange</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <h1 class="logo">Stock Exchange</h1>
+      <ul class="nav-links">
+        <li><a href="signin.html">Sign In</a></li>
+      </ul>
+    </nav>
+    <div class="form-container">
+      <h2>Sign Up</h2>
+      <form method="POST" action="/signup">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+  </div>
+  <button type="submit">Sign Up</button>
+</form>
+      <p>Already have an account? <a href="signin.html">Sign In</a></p>
+    </div>
+  </div>
+</body>
+</html>

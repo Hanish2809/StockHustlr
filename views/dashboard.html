@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Stock Exchange</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <div class="sidebar">
+      <h2>Watchlist</h2>
+      <ul class="watchlist">
+        <li>
+          <div>
+            <p class="stock-symbol">RELIANCE</p>
+            <p>₹2935.50</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <p class="stock-symbol">TCS</p>
+            <p>₹3875.20</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <nav class="navbar">
+        <h1 class="logo">Stock Exchange</h1>
+        <ul class="nav-links">
+          <li><a href="dashboard.html" class="active">Dashboard</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="orders.html">Orders</a></li>
+          <li><a href="holdings.html">Holdings</a></li>
+          <li><a href="funds.html">Funds</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="settings.html">Settings</a></li>
+          <li><a href="signin.html">Logout</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <h3>Total Funds</h3>
+            <p>₹0.00</p>
+          </div>
+          <div class="stat-card">
+            <h3>Total Gain</h3>
+            <p class="text-green">₹1500.00</p>
+          </div>
+          <div class="stat-card">
+            <h3>Portfolio Value</h3>
+            <p>₹50000.00</p>
+          </div>
+          <div class="stat-card">
+            <h3>Total Investments</h3>
+            <p>₹48500.00</p>
+          </div>
+        </div>
+        <div class="search-section">
+          <h2>Add Stocks</h2>
+          <div class="search-bar">
+            <input type="text" placeholder="Search stocks (e.g., RELIANCE)">
+            <button>Search</button>
+          </div>
+          <div class="search-results">
+            <div class="result-card">
+              <div>
+                <p class="stock-symbol">RELIANCE (Reliance Industries)</p>
+                <p>₹2935.50</p>
+              </div>
+              <div class="result-actions">
+                <button class="btn-green">Buy</button>
+                <button class="btn-blue">Add to Watchlist</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

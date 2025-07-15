@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile - Stock Exchange</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <div class="sidebar">
+      <h2>Watchlist</h2>
+      <ul class="watchlist">
+        <li>
+          <div>
+            <p class="stock-symbol">RELIANCE</p>
+            <p>₹2935.50</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <p class="stock-symbol">TCS</p>
+            <p>₹3875.20</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <nav class="navbar">
+        <h1 class="logo">Stock Exchange</h1>
+        <ul class="nav-links">
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="orders.html">Orders</a></li>
+          <li><a href="holdings.html">Holdings</a></li>
+          <li><a href="funds.html">Funds</a></li>
+          <li><a href="profile.html" class="active">Profile</a></li>
+          <li><a href="settings.html">Settings</a></li>
+          <li><a href="signin.html">Logout</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+        <div class="card">
+          <h2>Profile</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" value="John Doe">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" value="john.doe@example.com">
+            </div>
+            <button type="submit">Save</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
